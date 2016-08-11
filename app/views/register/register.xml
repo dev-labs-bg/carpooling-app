@@ -1,0 +1,13 @@
+<Page loaded="loaded">
+    <StackLayout oriantation="vertical">
+        <Label text="Sign up"/>
+
+        <TextField id="email" text="{{email}}" hint="Email Address" autocorrect="false"
+                   autocapitalizationType="none"/>
+        <TextField text="{{name}}" hint="Name" autocorrect="false"/>
+        <TextField text="{{password}}" hint="Password" secure="true"/>
+        <TextField text="{{mobile_number}}" hint="Mobile number"/>
+
+        <Button text="Sign up" tap="signUp"/>
+    </StackLayout>
+</Page>
